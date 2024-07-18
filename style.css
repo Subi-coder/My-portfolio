@@ -1,0 +1,283 @@
+body{
+    background-color:#5ce1e6;
+}
+
+.top-cloud{
+    position: absolute;
+  left:40px;
+  top: 140px;
+  z-index:-1;
+  height:100px;
+}
+.bottom-cloud{
+    position: absolute;
+    right:40px;
+    top: 140px;
+    z-index:-1;
+    height:50px;
+}
+.hero-text{
+    font-family: "garamond",serif;
+    margin-top: 100px;
+    font-weight: 700;
+    width:600px;
+    text-align:center;
+    height: fit-content;
+}
+.name{
+    font-weight: bold;
+    font-size:45px;
+}
+.spark{
+    font-family: "garamond",serif;
+    font-weight:600;
+    font-size: 3rem;
+}
+.hero{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 25% 50% 25%;
+    gap:20px;
+}
+h1{
+    z-index: 1;
+    margin-top:100px;
+    margin-bottom:60px;
+    font-family: "Edu AU VIC WA NT Hand",serif;
+    font-weight:700;
+    font-size:5rem;
+    text-align: center;
+}
+.hey-text{
+        grid-column:span 2;
+        grid-area:1 1 2 3;
+}
+.hero-content{
+    grid-area:2 1 3 2;
+}
+.coder{
+    grid-area:2 2 3 3;
+}
+.coder-img{
+    border-radius:20px;
+    height:450px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border:solid #30D9DF 20px;
+    border-color:#30D9DF;
+}
+.project-title{
+    font-family: "garamond",serif;  
+    font-weight: 550;
+    font-size: 40px; 
+    text-align: center;
+}
+.multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left:25%;
+    border-radius:50%;
+    max-width:50%;
+    height:50%;
+}
+.top-cloud2{
+    position: absolute;
+    left:10px;
+    top: 750px;
+    z-index:-1;
+    height:50px;
+}
+.bottom-cloud2{
+    position: absolute;
+    right:10px;
+    top:800px;
+    z-index:-1;
+    height:80px;
+}
+.card-pro{
+    width:18rem;
+    margin-left:10px;
+    border-color: #30D9DF;
+    
+}
+.top-cloud3{
+    position: absolute;
+    right:10px;
+    top: 1250px;
+    z-index:-1;
+    height:50px;
+}
+.bottom-cloud3{
+    position: absolute;
+    left:10px;
+    top:1500px;
+    z-index:-1;
+    height:80px;
+}
+
+.canva{
+    margin-top:10px;
+    text-align: center;
+    font-family:"Cambria", Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-cloud4{
+    position: absolute;
+    left:10px;
+    top: 2250px;
+    z-index:-1;
+    height:50px;
+}
+.bottom-cloud4{
+    position: absolute;
+    right:10px;
+    top:2500px;
+    z-index:-1;
+    height:80px;
+}
+.motto{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b{
+    font-size:1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.display-4{
+    font-family:'Times New Roman', Times, serif
+}
+
+img.boy.d-flex.justify-content-center.mx-2{
+    height:480px;
+    width: 480px;
+    border-radius: 20px;
+}
+.col-lg-6.order-lg-2{
+    margin-left:150px;
+}
+.hobbie-col-lg-6{
+    width: 25rem;
+    height: 25rem;
+    margin-top:0;
+    margin-bottom:10px;
+    margin-left:0px;
+    margin-right:5em;
+    background-color: #1CB1B6;
+    animation: squareToCircle 3s 1s infinite alternate;
+  }
+  
+ @keyframes squareToCircle {
+      0% {
+        border-radius: 0 0 0 0;
+        background: #30D9DF;
+        
+      }
+      25% {
+        border-radius: 50% 0 0 0;
+        background: #1DB9BF;
+        
+      }
+      50% {
+        border-radius: 50% 50% 0 0;
+        background:#03AED2;
+       
+      }
+      75% {
+        border-radius: 50% 50% 50% 0;
+        background: #1DB9BF;
+        
+      }
+      100% {
+        border-radius: 50% 50% 50% 50%;
+        background: #6DC5D1;
+        
+      }
+  }
+  .display-4{
+ display:flex;
+ justify-content:center;
+ align-items: center;
+  }
+
+@media(max-width:700px)and (min-width:320px){
+.coder-img{
+    display:flex;
+    height:50vh;
+
+} 
+.hero{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows: 20% 40% 40%;
+    gap:20px;
+} 
+.hey-text{
+
+    grid-area:1 /1/ 2/ 2;
+}
+.hero-content{
+grid-area:2/ 1/ 3 /2;
+}
+.coder-img{
+grid-area:3 /1/4/2;
+margin-left: 0;
+
+    border-radius:20px;
+    height:300px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-bottom:0;
+    border:solid #30D9DF 20px;
+    border-color:#30D9DF;
+}
+
+.img-fluid{
+    margin-left:0;
+}
+.img-flick{
+    height:300px;
+}
+p.b{
+    width:310px;
+    margin-left:0;
+}
+.projects{
+    margin-top: 0;
+}
+
+.hero-text{
+    width:350px;
+}
+img.boy.d-flex.justify-content-center.mx-2{
+    height:300px;
+    width: 300px;
+}
+.hobbie-col-lg-6{
+    width: 300px;
+    height:350px;
+    margin-left:25px;
+    padding-left:15px;
+}
+.col-lg-6.order-lg-2{
+    margin-left:0px;
+}
+
+}
+@media(max-width:1300px)and (min-width:800px){
+
+    img.boy.d-flex.justify-content-center.mx-2{
+        margin-left: 0;
+        height:450px;
+        width: 450px;
+    }
+
+}
+.bi-github{
+    background:url("https://github.com/Subi-coder");
+}
